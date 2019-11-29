@@ -37,7 +37,7 @@ class SneakerTest {
 
         Sneaker sneaker = new Sneaker(expectedId, expectedName,expectedBrand, expectedSport,expectedSize,expectedQuantity,expectedPrice);
         sneaker.setId(4);
-        Assertions.assertEquals(expectedId, sneaker.getId());
+        Assertions.assertEquals(4, sneaker.getId());
 
 
     }
@@ -56,7 +56,7 @@ class SneakerTest {
         sneaker.setName("Joe");
 
 
-        Assertions.assertEquals("John", sneaker.getName());
+        Assertions.assertEquals("Joe", sneaker.getName());
 
 
     }
